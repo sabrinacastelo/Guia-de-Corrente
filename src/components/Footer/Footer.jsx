@@ -1,31 +1,34 @@
 import React from "react";
-import FooterLogo from "../../assets/logo.png";
+import FooterLogo from "../../assets/guiacorrentelogo.png";
 import {
-  FaFacebook,
   FaInstagram,
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
 } from "react-icons/fa";
-import NatureVid from "../../assets/video/footer.mp4";
+import NatureVid from "../../assets/video/IMG_6139.mp4";
 import { Link } from "react-router-dom";
 
 const FooterLinks = [
   {
-    title: "Home",
+    name: "Inicio",
     link: "/",
   },
   {
-    title: "About",
-    link: "/about",
+    name: "Sobre",
+    link: "/sobre",
   },
   {
-    title: "Best Places",
-    link: "/best-places",
+    name: "Turismo",
+    link: "/turismo",
   },
   {
-    title: "Blogs",
-    link: "/blogs",
+    name: "Hospedagem",
+    link: "/hospedagem",
+  },
+  {
+    name: "Gastronomia",
+    link: "/gastronomia",
   },
 ];
 
@@ -56,11 +59,11 @@ const Footer = () => {
               <br />
               <div className="flex items-center gap-3 ">
                 <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
+                <p>Corrente, Piauí</p>
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>+91 123456789</p>
+                <p>089 35733042</p>
               </div>
               {/* social handles */}
               <div>
@@ -68,9 +71,9 @@ const Footer = () => {
                   <a href="#">
                     <FaInstagram className="text-3xl" />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <FaFacebook className="text-3xl" />
-                  </a>
+                  </a> */}
                   <a href="#">
                     <FaLinkedin className="text-3xl" />
                   </a>
@@ -81,7 +84,7 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
+                    Links Importantes
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
@@ -91,7 +94,7 @@ const Footer = () => {
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span>{link.name}</span>
                         </Link>
                       </li>
                     ))}
@@ -99,7 +102,7 @@ const Footer = () => {
                 </div>
               </div>
               <div>
-                <div className="py-8 px-4">
+                {/* <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                     Important Links
                   </h1>
@@ -111,15 +114,15 @@ const Footer = () => {
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span>{link.name}</span>
                         </Link>
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div>
-                <div className="py-8 px-4">
+                {/* <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                     Important Links
                   </h1>
@@ -131,18 +134,18 @@ const Footer = () => {
                           onClick={() => window.scrollTo(0, 0)}
                         >
                           <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span>{link.name}</span>
                         </Link>
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div>
             <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
-              @copyright 2024 All rights reserved || Made with ❤️ by Dilshad
+              @copyright 2024 Todos os direitos reservados || Made by Staff
             </div>
           </div>
         </div>

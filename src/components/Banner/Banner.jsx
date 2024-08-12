@@ -1,8 +1,10 @@
 import React from "react";
 import TravelImg from "../../assets/travelbox.png";
-import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
+import { MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
+import { MdDirectionsCar } from "react-icons/md";
+
 
 const Banner = () => {
   return (
@@ -25,7 +27,7 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold"
                 >
-                  Explore all corners of The world with us
+                  Conheça todos os cantos de Corrente com a gente
                 </h1>
                 <p
                   data-aos="fade-up"
@@ -39,8 +41,8 @@ const Banner = () => {
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
                   <div className="space-y-6">
                     <div className="flex items-center gap-4">
-                      <MdFlight className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                      <p>Flight</p>
+                      <MdDirectionsCar className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
+                      <p>Carro</p>
                     </div>
                     <div className="flex items-center gap-4">
                       <MdOutlineLocalHotel className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
@@ -54,7 +56,7 @@ const Banner = () => {
                     </div>
                     <div className="flex items-center gap-4">
                       <IoFastFoodSharp className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                      <p>Foods</p>
+                      <p>Comida</p>
                     </div>
                   </div>
                 </div>

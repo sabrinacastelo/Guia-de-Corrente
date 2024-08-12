@@ -10,6 +10,7 @@ import About from "./pages/About";
 import BlogsDetails from "./pages/BlogsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import GastRoute from "./pages/GastRoute";
 
 const App = () => {
   React.useEffect(() => {
@@ -27,10 +28,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="blogs" element={<Blogs />} />
-            <Route path="blogs/:id" element={<BlogsDetails />} />
-            <Route path="best-places" element={<PlacesRoute />} />
-            <Route path="about" element={<About />} />
+            <Route path="turismo" element={<Blogs />} />
+            <Route path="turismo/:id" element={<BlogsDetails />} />
+            <Route path="hospedagem" element={<PlacesRoute />} />
+            <Route path="gastronomia" element={<GastRoute />} />
+            <Route path="sobre" element={<About />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
