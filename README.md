@@ -23,15 +23,6 @@ proporcionando uma interface intuitiva para cadastro, edição e pesquisa de est
     npm run dev
     ```
 
-<button
-  className="bg-gradient-to-r from-[#E88918] to-[#D94F16] hover:bg-gradient-to-r hover:from-[#D94F16] hover:to-[#E88918] transition-all duration-600 text-white px-3 py-1 rounded-full"
-  onClick={() => {
-    window.location.href = "https://github.com/sabrinacastelo";
-  }}
->
-  Redirecionar
-</button>
-
 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes. 
