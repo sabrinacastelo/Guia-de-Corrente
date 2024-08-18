@@ -68,13 +68,13 @@ const Footer = () => {
               {/* social handles */}
               <div>
                 <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
+                  <a href="https://www.instagram.com/sabrinaccastelo/">
                     <FaInstagram className="text-3xl" />
                   </a>
                   {/* <a href="#">
                     <FaFacebook className="text-3xl" />
                   </a> */}
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/sabrinacastelo128a0822b/">
                     <FaLinkedin className="text-3xl" />
                   </a>
                 </div>
@@ -144,7 +144,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="text-center py-5 border-t-2 border-gray-300/50 bg-primary text-white">
+            <div className="text-center py-5 border-t-2 border-gray-300/50 bg-[#D94F16] text-white">
               @copyright 2024 Todos os direitos reservados || Made by Staff
             </div>
           </div>

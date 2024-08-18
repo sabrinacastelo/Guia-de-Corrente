@@ -124,12 +124,11 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
             <div className="flex items-center gap-4">
               <button
-                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-600 text-white px-3 py-1 rounded-full"
-                onClick={() => {
-                  handleOrderPopup();
+                className="bg-gradient-to-r from-[#E88918] to-[#D94F16] hover:bg-gradient-to-r hover:from-[#D94F16] hover:to-[#E88918] transition-all duration-600 text-white px-3 py-1 rounded-full" onClick={() => {
+                  window.location.href = "https://www.instagram.com/sabrinaccastelo";
                 }}
               >
-                Conheça Agora
+                Entre em contato
               </button>
               {/* Mobile Hamburger icon */}
               <div className="md:hidden block">

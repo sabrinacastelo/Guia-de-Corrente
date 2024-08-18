@@ -4,19 +4,19 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "Samuel",
+    name: "Eutino Júnior",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 1,
-    name: "John Doe",
+    name: "Tamiris Veras",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 1,
-    name: "Smith",
+    name: "Sabrina Victoria",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
   },
@@ -68,14 +68,14 @@ const Testimonial = () => {
           {/* Header section */}
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              Testimonial
+            Feedbacks
             </p>
-            <h1 className="text-3xl font-bold">Testimonial</h1>
+            <h1 className="text-3xl font-bold">Feedbacks</h1>
             <p className="text-xs text-gray-400">
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
-              nesciunt explicabo a! Laborum delectus aliquam labore, earum rerum
-              quam! Nulla?
+              Feedbacks dos usuários a respeito do que oferecemos
+              em nosso site.<br></br>
+              Deixe um comentário para que possamos melhorar cada vez mais.
             </p>
           </div>
           {/* testimonial section */}

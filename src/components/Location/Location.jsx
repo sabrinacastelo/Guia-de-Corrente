@@ -6,7 +6,7 @@ const Location = () => {
       <span id="location"></span>
       <section data-aos="fade-up" className="">
         <div className="container my-4">
-          <h1 className="inline-block border-l-8 border-primary/50 py-2 pl-2 mb-4 text-xl font-bold sm:text-3xl">
+          <h1 className="my-8 border-l-8 border-[#D94F16]/50 py-2 pl-2 text-3xl font-bold">
             Cidade para visitar
           </h1>
 
@@ -18,8 +18,8 @@ const Location = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              >
-          </iframe>
+            >
+            </iframe>
           </div>
         </div>
       </section>
