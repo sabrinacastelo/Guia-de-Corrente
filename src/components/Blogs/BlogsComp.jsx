@@ -4,9 +4,9 @@ import Img1 from "../../assets/turism/img_1.png";
 import Img2 from "../../assets/turism/img2.png";
 import Img3 from "../../assets/turism/img5919.png";
 import Img4 from "../../assets/turism/IMG_56.jpg";
-import Img5 from "../../assets/turism/img5945.jpg";
-import Img6 from "../../assets/turism/img5972.jpg";
-import Img7 from "../../assets/turism/img6034.jpg";
+import Img5 from "../../assets/turism/IMG_98.jpg";
+import Img6 from "../../assets/turism/IMG_75.jpg";
+import Img7 from "../../assets/turism/IMG_53.jpg";
 
 const BlogsData = [
   {
