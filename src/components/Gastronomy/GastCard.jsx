@@ -2,7 +2,7 @@
 import { IoLocationSharp } from "react-icons/io5";
 
 const GastCard = ({
-  img,
+  image,
   name,
   location,
   description,
@@ -18,7 +18,7 @@ const GastCard = ({
       >
         <div className="overflow-hidden">
           <img
-            src={img}
+            src={image}
             alt="No image"
             className="mx-auto h-[220px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
           />
