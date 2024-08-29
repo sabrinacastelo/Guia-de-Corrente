@@ -7,7 +7,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 
 export const NavbarLinks = [
   {
-    name: "Inicio",
+    name: "Início",
     link: "/",
   },
   {

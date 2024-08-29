@@ -8,27 +8,16 @@ const About = () => {
       <div className="container pt-14">
         <div className="py-10">
           <h1 className="my-8 border-l-8 border-[#D94F16]/50 py-2 pl-2 text-3xl font-bold">
-            About us
+            Sobre nós
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            ducimus cupiditate quo harum officia perspiciatis hic ut sunt
-            repudiandae, laboriosam expedita nostrum tempora, consectetur
-            itaque, voluptate error aperiam corrupti ullam aspernatur a!
-            Dolorem, reprehenderit amet quidem deleniti iure rem vel a enim
-            ipsam hic numquam consequatur eius id eaque accusamus repudiandae
-            impedit, quisquam non, harum inventore ratione? Tempora voluptatum
-            ut eligendi corrupti esse, repellat nesciunt illum facilis officiis?
-            Nisi quidem officiis asperiores nostrum ipsa maiores explicabo quia!
-            Corporis provident asperiores fuga eligendi rem temporibus possimus
-            autem excepturi! Facilis sunt corrupti nesciunt asperiores, ab
-            consectetur doloremque, velit a mollitia possimus quaerat!
+          A página Guia de Corrente foi desenvolvida para centralizar e facilitar o acesso a informações sobre serviços e turismo na cidade de Corrente, Piauí. Oferecemos uma plataforma intuitiva para cadastro e pesquisa de estabelecimentos e eventos, conectando usuários a diversas categorias de serviços, como hospedagem, alimentação, e lazer, além de destacar pontos turísticos. A página visa promover a valorização do comércio local e incentivar o turismo, facilitando a interação entre comerciantes, moradores e turistas.
+Somos uma solução inovadora e colaborativa que visa promover serviços e turismo locais, oferecendo uma alternativa acessível e integradora.
+
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
-            suscipit minus similique aliquam recusandae quisquam id nulla
-            tempora voluptate vero.
+           
           </p>
         </div>
       </div>

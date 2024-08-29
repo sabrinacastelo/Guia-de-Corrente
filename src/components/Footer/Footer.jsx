@@ -52,9 +52,7 @@ const Footer = () => {
                 {/* TravelloGo */}
               </h1>
               <p className="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                facere ab hic accusamus omnis dolor voluptatibus illo, tempore
-                eum tenetur.
+              Informações sobre serviços locais, pontos turísticos e eventos na cidade de Corrente, Piauí
               </p>
               <br />
               <div className="flex items-center gap-3 ">
@@ -63,7 +61,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 mt-3">
                 <FaMobileAlt />
-                <p>089 35733042</p>
+                <p>089 999411048</p>
               </div>
               {/* social handles */}
               <div>
@@ -74,7 +72,7 @@ const Footer = () => {
                   {/* <a href="#">
                     <FaFacebook className="text-3xl" />
                   </a> */}
-                  <a href="https://www.linkedin.com/in/sabrinacastelo128a0822b/">
+                  <a href="https://www.linkedin.com/in/tamiris-lob%C3%A3o-a7b4401a7/">
                     <FaLinkedin className="text-3xl" />
                   </a>
                 </div>
