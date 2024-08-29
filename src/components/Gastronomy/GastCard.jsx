@@ -1,9 +1,9 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import { IoLocationSharp } from "react-icons/io5";
 
 const GastCard = ({
   img,
-  title,
+  name,
   location,
   description,
   price,
@@ -25,7 +25,7 @@ const GastCard = ({
         </div>
 
         <div className="space-y-2 p-3">
-          <h1 className="line-clamp-1 font-bold text-xl">{title}</h1>
+          <h1 className="line-clamp-1 font-bold text-xl">{name}</h1>
           <div className="flex items-center gap-2 opacity-70">
             <IoLocationSharp />
             <span>{location}</span>
